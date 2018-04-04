@@ -13,6 +13,9 @@ omen_story = media.Movie ("The Omen",
                           "https://www.youtube.com/watch?v=V7CEbd7ffNw",
                           "https://www.telegraph.co.uk/culture/film/filmreviews/11301178/the-omen-review.html")
 
+print (media.Movie.__doc__)
+
+print (media.Movie.VALID_RATINGS)
 
 movies = [memoirs_story, omen_story]
 
